@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Register</title>
+
+<style>
+h1{
+	text-align:center;
+	color: blue;
+}
+table {
+  border-collapse: collapse;
+  width: 600px;
+  margin:auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+	 <h1>User Registration Form</h1>
+    <form action="RegisterServlet3" method="post">
+        <table cellpadding="3px">
+            <tr>
+                <td>User Name :</td>
+                <td><input type="text" name="userName" size="30" /></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="password" name="password1" size="30" /></td>
+            </tr>
+ 
+            <tr>
+                <td>Confirm Password :</td>
+                <td><input type="password" name="password2" size="30" /></td>
+            </tr>
+            <tr>
+                <td>email :</td>
+                <td><input type="text" name="email" size="30" /></td>
+            </tr>
+            <tr>
+                <td>Phone :</td>
+                <td><input type="text" name="phone" size="30" /></td>
+            </tr>
+            <tr>
+                <td>City :</td>
+                <td><input type="text" name="city" size="30" /></td>
+            </tr>
+            <tr>
+            <td colspan="2" style="text-align: center;"><input type="submit" value="Register" /></td>
+            
+            </tr>
+             </table>
+    </form>
+</body>
+</html>

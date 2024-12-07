@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+D:\Training\Web-WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2661029572.index
+\ShopStop\src\main\java
+D:\Training\Web-WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\603202551.index
+\assignments\src\main\resources
+D:\Training\Web-WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\598739236.index
+\assignments\src\main\java
+D:\Training\Web-WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1445205228.index
+\hibernate-web\src\main\java

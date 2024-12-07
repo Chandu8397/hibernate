@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Thu Dec 05 15:52:06 IST 2024
+org.eclipse.jst.j2ee.server\:assignments=D\:\\apache-tomcat-9.0.97\\wtpwebapps\\assignments
+org.eclipse.jst.j2ee.server\:hibernate-web=D\:\\apache-tomcat-9.0.97\\wtpwebapps\\hibernate-web
+org.eclipse.jst.jee.server\:ShopStop=D\:\\apache-tomcat-9.0.97\\wtpwebapps\\ShopStop

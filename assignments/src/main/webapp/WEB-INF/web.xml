@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>bookServlet</servlet-name>
+  	<display-name>bookServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.coforge.training.assignments.bookServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BookServlate</servlet-name>
+  	<display-name>BookServlate</display-name>
+  	<description></description>
+  	<servlet-class>com.coforge.training.assignments.BookServlate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>bookServlet</servlet-name>
+  	<url-pattern>/bookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookServlate</servlet-name>
+  	<url-pattern>/BookServlate</url-pattern>
+  </servlet-mapping>
+</web-app>

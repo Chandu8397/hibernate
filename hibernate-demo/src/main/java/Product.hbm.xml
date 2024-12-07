@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 10 Aug, 2021 11:26:10 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+<class name="com.coforge.training.get.hibernatedemo.Product" table="Product">
+        <id name="pid" type="long" access="field">
+            <column name="PRODUCTID" />
+            <generator class="identity" /> //Auto Increment of PID field
+        </id>
+        <property name="name" type="java.lang.String" access="field">
+            <column name="PRODUCTNAME" />
+        </property>
+        <property name="description" type="java.lang.String" access="field">
+            <column name="DESCRIPITION" />
+        </property>
+        <property name="price" type="float" access="field">
+            <column name="PRICE" />
+        </property>
+    </class>
+</hibernate-mapping>
+
